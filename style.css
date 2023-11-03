@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.sec1-nav{
+    height: 80px;
+    width: 100%;
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 100px 400px 400px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    /* position: fixed; */
+    /* top: 0; */
+    background-color: black;
+}
+.nav-right img{
+    height: 80px;
+    width: 90px;
+}
+.nav-left{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+}
+.nav-center{
+    color: white;
+    font-size: 20px;
+}
+.nav-left a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.sec2-main{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.left-sec-main1 img{
+    width: 100%;
+    height: 750px;
+}
+.right-sec-main1 p{
+    text-align: center;
+    margin-top: 100px;
+    font-size:30px;
+    color: white;
+}
+.sec3-main{
+    height: 215vh;
+    width: 100%;
+    background-color: black;
+
+}
+.right-sec-main3{
+    width: 80%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-shadow: 5px 5px  rgb(245, 233, 233);
+}
+.sec3-img1 img{
+    width: 100%;
+    height: 809px;
+}
+.sec4-main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(8, 8, 8);
+}
+video{
+    height: 400px;
+    width: 800px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+audio{
+    margin-top: 20pxpx;
+    margin-left: 0px;
+}
+.right-sec-audio{
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 45px;
+}
+.sec5-main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+table ,th, td{
+    width: 1
+    text-align: center;
+    border: solid 1px white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+  iframe{
+    margin-top: 50px;
+    width: 100%;
+    height: 390px;
+}
+.footer{
+    width: 100%;
+    height: 75vh;
+    background-color: rgb(11, 11, 11);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left-sec{
+    height: 80px;
+    width: 280px;
+    margin: auto;
+    background-color: rgb(1, 1, 1);
+    color: white;
+}
+.left-sec img{
+    height: 30px;
+    width: 30px;
+}
+input, textarea {
+    width: 50;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.rightsec{
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    margin: auto;
+}
